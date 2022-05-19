@@ -1,0 +1,247 @@
+QWidget#left_menu{
+	background-color:rgb(216, 227, 255)
+}
+QWidget#upper_menu{
+	background-color:rgb(216, 227, 255)
+}
+QWidget#main_menu{
+	background-color:rgb(216, 227, 255)
+}
+QWidget#home{
+	background:rgb(216, 227, 255)
+}
+QWidget#tutor_page{
+	background:rgb(216, 227, 255)
+}
+
+QFrame#tutor_upper{
+	background:rgb(216, 227, 255)
+}
+
+QFrame#login{
+	border:20px solid white;
+	border-radius:30px;
+	background:rgb(255, 255, 255)
+}
+QFrame#log{
+	border:20px solid white;
+	border-radius:30px;
+	background:rgb(255, 255, 255)
+}
+QFrame#detail{
+	font: 12pt "华文行楷";
+}
+
+
+
+QFrame#search_menu{
+	background:rgb(216, 227, 255)
+}
+
+QListWidget#Ebook_list{
+	font: 25 12pt "华文行楷";
+	border: 15px solid rgb(216, 227, 255); /* 设置边框的大小，样式，颜色 */
+	border-radius: 10px;
+}
+QListWidget#Ebook_list::item{
+	height:100px
+}
+
+
+
+
+QLineEdit{
+	border:15px solid white;
+	border-radius:10px
+}
+
+QLineEdit#logpwd{
+	border:2px solid rgb(233, 233, 233);
+	border-radius:15px
+}
+QLineEdit#logrpwd{
+	border:2px solid rgb(233, 233, 233);
+	border-radius:15px
+}
+QLineEdit#logid{
+	border:2px solid rgb(233, 233, 233);
+	border-radius:15px
+}
+
+QLineEdit#rlogid{
+	border:2px solid rgb(233, 233, 233);
+	border-radius:15px
+}
+
+QLineEdit#rlogpwd{
+	border:2px solid rgb(233, 233, 233);
+	border-radius:15px
+}
+QLineEdit#verify{
+	border:2px solid rgb(233, 233, 233);
+	border-radius:15px
+}
+
+
+QComboBox {
+     border: 15px solid white;   /* 边框 */
+     border-radius: 10px;   /* 圆角 */
+}
+
+
+
+QLabel#lab_id{
+	font: 12pt "华文行楷";
+	background:rgb(255,255,255)
+}
+QLabel#lab_pwd{
+	font: 12pt "华文行楷";
+	background:rgb(255,255,255)
+}
+QLabel#lab_rpwd{
+	font: 12pt "华文行楷";
+	background:rgb(255,255,255)
+}
+QLabel#lab_titlelog{
+	font: 12pt "华文行楷";
+	background:rgb(255,255,255)
+}
+QLabel#lab_logname{
+	font: 12pt "华文行楷";
+	background:rgb(255,255,255)
+}
+QLabel#lab_logpwd{
+	font: 12pt "华文行楷";
+	background:rgb(255,255,255)
+}
+QLabel#lab_verify{
+	font: 12pt "华文行楷";
+	background:rgb(255,255,255)
+}
+QLabel#vertification{
+	font: 12pt "华文行楷";
+	background:rgb(255,255,255)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QPushButton{
+	border:none
+}
+QPushButton:hover{
+	 border-image:none;
+ 	 border:50px solid rgb(152, 223, 255);
+}
+
+QPushButton#btn_fsignup{
+	font: 12pt "华文行楷";
+	border:2px solid rgb(233, 233, 233);
+	border-radius:10px
+}
+QPushButton#btn_signup{
+	font: 12pt "华文行楷";
+	border:2px solid rgb(233, 233, 233);
+	border-radius:10px
+}
+QPushButton#btn_signin{
+	font: 12pt "华文行楷";
+	border:2px solid rgb(233, 233, 233);
+	border-radius:10px
+}
+QPushButton#btn_changeprofile{
+	font: 12pt "华文行楷";
+}
+QPushButton#btn_vxreverse{
+	font: 12pt "华文行楷";
+}
+
+
+QLabel{
+	background-color:rgb(216, 227, 255);
+	font: 13pt "华文行楷";
+}
+
+QTableView#showData{
+    border: 5px solid rgb(99, 206, 255);
+	border-radius:20px;
+    alternate-background-color: rgb(200, 200, 200);
+    selection-background-color: rgb(130, 190, 100);
+}
+
+QTableView#mytable{
+    border: 5px solid rgb(99, 206, 255);
+	border-radius:20px;
+    alternate-background-color: rgb(217,227,255);
+    selection-background-color: rgb(130, 190, 100);
+}
+
+
+QTableView#mytable{
+	background-color:rgb(216,227,255);
+	border: 5px solid rgb(216,227,255);
+}
+QTableWidget::item#mytable
+{
+    background-color:rgb(216,227,255); 	//item每个单元格只显示下边线
+}
+
+
+QSlider::groove:horizontal {
+border: 0px solid #bbb;
+}
+QSlider::sub-page:horizontal {
+background: rgb(235,97,0);
+border-radius: 0px;
+margin-top:8px;
+margin-bottom:8px;
+}
+QSlider::add-page:horizontal {
+background: rgb(255,255, 255);
+border: 0px solid #777;
+border-radius: 2px;
+margin-top:8px;
+margin-bottom:8px;
+}
+QSlider::handle:horizontal {
+background: rgb(255,153,102);
+border: 1px solid rgb(255,153,102);
+width: 14px;
+height:10px;
+border-radius: 7px;
+margin-top:2px;
+margin-bottom:2px;
+}
+QSlider::handle:horizontal:hover {
+background: rgb(255,128,6);
+border: 1px solid rgba(102,102,102,102);
+border-radius: 7px;
+}
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}
