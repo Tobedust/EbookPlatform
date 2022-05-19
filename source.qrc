@@ -1,0 +1,59 @@
+<RCC>
+  <qresource prefix="qss">
+    <file>qss/style.qss</file>
+  </qresource>
+  <qresource prefix="pic">
+    <file>icons/1.png</file>
+    <file>icons/2.png</file>
+    <file>icons/3.png</file>
+    <file>icons/4.png</file>
+    <file>icons/5.png</file>
+    <file>icons/6.png</file>
+    <file>icons/7.png</file>
+    <file>icons/8.png</file>
+    <file>icons/9.png</file>
+    <file>icons/10.png</file>
+    <file>icons/11.png</file>
+    <file>icons/12.png</file>
+    <file>icons/13.png</file>
+    <file>icons/14.png</file>
+    <file>icons/15.png</file>
+    <file>icons/16.png</file>
+    <file>icons/17.png</file>
+    <file>icons/18.png</file>
+    <file>icons/19.png</file>
+    <file>icons/20.png</file>
+    <file>icons/21.png</file>
+    <file>icons/22.png</file>
+    <file>icons/23.png</file>
+    <file>icons/24.png</file>
+    <file>icons/Aboutus.png</file>
+    <file>icons/accomplish.png</file>
+    <file>icons/all.png</file>
+    <file>icons/application.png</file>
+    <file>icons/cloud upload-fill.png</file>
+    <file>icons/cog.png</file>
+    <file>icons/delete.png</file>
+    <file>icons/download.png</file>
+    <file>icons/expand.png</file>
+    <file>icons/home.png</file>
+    <file>icons/list.png</file>
+    <file>icons/logout.png</file>
+    <file>icons/man.png</file>
+    <file>icons/open.png</file>
+    <file>icons/prompt.png</file>
+    <file>icons/quit.png</file>
+    <file>icons/random.png</file>
+    <file>icons/rate.png</file>
+    <file>icons/refresh.png</file>
+    <file>icons/rewrite.png</file>
+    <file>icons/score.png</file>
+    <file>icons/search.png</file>
+    <file>icons/shopping-cart-fill.png</file>
+    <file>icons/thunder.png</file>
+    <file>icons/upload.png</file>
+    <file>icons/URL.png</file>
+    <file>icons/user-group-fill.png</file>
+    <file>icons/web.png</file>
+  </qresource>
+</RCC>
